@@ -145,7 +145,7 @@ __vector_table
         THUMB
 
         PUBWEAK Reset_Handler
-        SECTION .text:CODE:REORDER:NOROOT:NOROOT(2)
+        SECTION .text:CODE:REORDER:NOROOT(2)
 Reset_Handler
         LDR     R0, =SystemInit
         BLX     R0
@@ -153,7 +153,7 @@ Reset_Handler
         BX      R0
         
         PUBWEAK NMI_Handler
-        SECTION .text:CODE:REORDER:NOROOT:NOROOT(1)
+        SECTION .text:CODE:REORDER:NOROOT(1)
 NMI_Handler
         B NMI_Handler
 
@@ -163,62 +163,62 @@ HardFault_Handler
         B HardFault_Handler
 
         PUBWEAK MemManage_Handler
-        SECTION .text:CODE:REORDER:NOROOT:NOROOT(1)
+        SECTION .text:CODE:REORDER:NOROOT(1)
 MemManage_Handler
         B MemManage_Handler
 
         PUBWEAK BusFault_Handler
-        SECTION .text:CODE:REORDER:NOROOT:NOROOT(1)
+        SECTION .text:CODE:REORDER:NOROOT(1)
 BusFault_Handler
         B BusFault_Handler
 
         PUBWEAK UsageFault_Handler
-        SECTION .text:CODE:REORDER:NOROOT:NOROOT(1)
+        SECTION .text:CODE:REORDER:NOROOT(1)
 UsageFault_Handler
         B UsageFault_Handler
 
         PUBWEAK SVC_Handler
-        SECTION .text:CODE:REORDER:NOROOT:NOROOT(1)
+        SECTION .text:CODE:REORDER:NOROOT(1)
 SVC_Handler
         B SVC_Handler
 
         PUBWEAK DebugMon_Handler
-        SECTION .text:CODE:REORDER:NOROOT:NOROOT(1)
+        SECTION .text:CODE:REORDER:NOROOT(1)
 DebugMon_Handler
         B DebugMon_Handler
 
         PUBWEAK PendSV_Handler
-        SECTION .text:CODE:REORDER:NOROOT:NOROOT(1)
+        SECTION .text:CODE:REORDER:NOROOT(1)
 PendSV_Handler
         B PendSV_Handler
 
         PUBWEAK SysTick_Handler
-        SECTION .text:CODE:REORDER:NOROOT:NOROOT(1)
+        SECTION .text:CODE:REORDER:NOROOT(1)
 SysTick_Handler
         B SysTick_Handler
 
         PUBWEAK WWDG_IRQHandler
-        SECTION .text:CODE:REORDER:NOROOT:NOROOT(1)
+        SECTION .text:CODE:REORDER:NOROOT(1)
 WWDG_IRQHandler
         B WWDG_IRQHandler
 
         PUBWEAK PVD_IRQHandler
-        SECTION .text:CODE:REORDER:NOROOT:NOROOT(1)
+        SECTION .text:CODE:REORDER:NOROOT(1)
 PVD_IRQHandler
         B PVD_IRQHandler
 
         PUBWEAK TAMPER_IRQHandler
-        SECTION .text:CODE:REORDER:NOROOT:NOROOT(1)
+        SECTION .text:CODE:REORDER:NOROOT(1)
 TAMPER_IRQHandler
         B TAMPER_IRQHandler
 
         PUBWEAK RTC_IRQHandler
-        SECTION .text:CODE:REORDER:NOROOT:NOROOT(1)
+        SECTION .text:CODE:REORDER:NOROOT(1)
 RTC_IRQHandler
         B RTC_IRQHandler
 
         PUBWEAK FLASH_IRQHandler
-        SECTION .text:CODE:REORDER:NOROOT:NOROOT(1)
+        SECTION .text:CODE:REORDER:NOROOT(1)
 FLASH_IRQHandler
         B FLASH_IRQHandler
 

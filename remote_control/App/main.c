@@ -2,21 +2,36 @@
 #include <stdio.h>
 
 
+void Delay(uint32_t u32Period)
+{
+  volatile uint64_t u64count = 1000*u32Period; 
+  while(u64count--);
+}
+
+void Led_Init(void)
+{
+    GPIO_InitTypeDef LedPin;
+  
+    LedPin.GPIO_Pin = GPIO_Pin_4;
+    LedPin.GPIO_Speed = GPIO_Speed_50MHz;
+    LedPin.GPIO_Mode = GPIO_Mode_Out_PP;
+    RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA, ENABLE);
+
+   GPIO_Init(GPIOA,&LedPin);
+   /*turn off led by default*/
+   GPIO_ResetBits(GPIOA,GPIO_Pin_4);
+}
+
 
 int main(void)
 {
-  /*!< At this stage the microcontroller clock setting is already configured, 
-       this is done through SystemInit() function which is called from startup
-       file (startup_stm32f10x_xx.s) before to branch to application main.
-       To reconfigure the default setting of SystemInit() function, refer to
-       system_stm32f10x.c file
-     */     
+    Led_Init();
 
-  /* Add your application code here
-   */
-
-  /* Infinite loop */
-  while (1)
-  {
-  }
+    while (1)
+    {
+        GPIO_SetBits(GPIOA,GPIO_Pin_4);
+        Delay(1000);
+        GPIO_ResetBits(GPIOA,GPIO_Pin_4);
+        Delay(1000);
+    }
 }
