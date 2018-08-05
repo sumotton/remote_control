@@ -1,0 +1,878 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>1286569740</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\FwLib\inc\stm32f10x_tim.h</file>
+      <file>$PROJ_DIR$\FwLib\inc\stm32f10x_usart.h</file>
+      <file>$PROJ_DIR$\FwLib\inc\stm32f10x_wwdg.h</file>
+      <file>$PROJ_DIR$\App\stm32f10x_it.h</file>
+      <file>$PROJ_DIR$\CMSIS\StartUp\startup_stm32f10x_cl.s</file>
+      <file>$PROJ_DIR$\CMSIS\StartUp\startup_stm32f10x_hd.s</file>
+      <file>$PROJ_DIR$\CMSIS\StartUp\startup_stm32f10x_hd_vl.s</file>
+      <file>$PROJ_DIR$\CMSIS\StartUp\startup_stm32f10x_ld.s</file>
+      <file>$PROJ_DIR$\CMSIS\StartUp\startup_stm32f10x_ld_vl.s</file>
+      <file>$PROJ_DIR$\CMSIS\StartUp\startup_stm32f10x_md.s</file>
+      <file>$PROJ_DIR$\CMSIS\StartUp\startup_stm32f10x_md_vl.s</file>
+      <file>$PROJ_DIR$\CMSIS\StartUp\startup_stm32f10x_xl.s</file>
+      <file>$PROJ_DIR$\FwLib\inc\stm32f10x_dma.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\system_stm32f10x.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\core_cm3.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\system_stm32f10x.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\core_cm3.pbi</file>
+      <file>$PROJ_DIR$\Debug\Exe\RemoteControl.out</file>
+      <file>$PROJ_DIR$\FwLib\inc\misc.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Full.h</file>
+      <file>$PROJ_DIR$\FwLib\inc\stm32f10x_gpio.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\RemoteControl.pbd</file>
+      <file>$PROJ_DIR$\Debug\Obj\misc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_bkp.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_can.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_adc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\startup_stm32f10x_cl.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\startup_stm32f10x_hd.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_it.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\startup_stm32f10x_ld_vl.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\startup_stm32f10x_md.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\startup_stm32f10x_md_vl.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\startup_stm32f10x_xl.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\startup_stm32f10x_ld.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\startup_stm32f10x_hd_vl.o</file>
+      <file>$PROJ_DIR$\FwLib\inc\stm32f10x_bkp.h</file>
+      <file>$PROJ_DIR$\FwLib\inc\stm32f10x_i2c.h</file>
+      <file>$PROJ_DIR$\FwLib\inc\stm32f10x_iwdg.h</file>
+      <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+      <file>$TOOLKIT_DIR$\config\linker\ST\stm32f105xB.icf</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$PROJ_DIR$\CMSIS\core_cm3.h</file>
+      <file>$TOOLKIT_DIR$\lib\dl7M_tlf.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+      <file>$PROJ_DIR$\CMSIS\core_cmInstr.h</file>
+      <file>$PROJ_DIR$\CMSIS\core_cmFunc.h</file>
+      <file>$PROJ_DIR$\FwLib\inc\stm32f10x_can.h</file>
+      <file>$PROJ_DIR$\CMSIS\system_stm32f10x.h</file>
+      <file>$PROJ_DIR$\App\stm32f10x.h</file>
+      <file>$PROJ_DIR$\FwLib\inc\stm32f10x_adc.h</file>
+      <file>$PROJ_DIR$\FwLib\inc\stm32f10x_rcc.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_cec.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_crc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_dac.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_dbgmcu.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_dma.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_exti.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_flash.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_fsmc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_gpio.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_i2c.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_iwdg.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_pwr.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_rcc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_rtc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_sdio.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_spi.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_tim.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_usart.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_wwdg.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_it.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+      <file>$PROJ_DIR$\CMSIS\core_cm3.c</file>
+      <file>$PROJ_DIR$\CMSIS\system_stm32f10x.c</file>
+      <file>$PROJ_DIR$\FwLib\src\misc.c</file>
+      <file>$PROJ_DIR$\FwLib\src\stm32f10x_adc.c</file>
+      <file>$PROJ_DIR$\FwLib\src\stm32f10x_bkp.c</file>
+      <file>$PROJ_DIR$\FwLib\src\stm32f10x_can.c</file>
+      <file>$PROJ_DIR$\FwLib\src\stm32f10x_cec.c</file>
+      <file>$PROJ_DIR$\FwLib\src\stm32f10x_crc.c</file>
+      <file>$PROJ_DIR$\FwLib\src\stm32f10x_dac.c</file>
+      <file>$PROJ_DIR$\FwLib\src\stm32f10x_dbgmcu.c</file>
+      <file>$PROJ_DIR$\FwLib\src\stm32f10x_dma.c</file>
+      <file>$PROJ_DIR$\FwLib\src\stm32f10x_exti.c</file>
+      <file>$PROJ_DIR$\FwLib\src\stm32f10x_flash.c</file>
+      <file>$PROJ_DIR$\FwLib\src\stm32f10x_fsmc.c</file>
+      <file>$PROJ_DIR$\FwLib\inc\stm32f10x_pwr.h</file>
+      <file>$PROJ_DIR$\FwLib\inc\stm32f10x_rtc.h</file>
+      <file>$PROJ_DIR$\FwLib\inc\stm32f10x_sdio.h</file>
+      <file>$PROJ_DIR$\FwLib\inc\stm32f10x_cec.h</file>
+      <file>$PROJ_DIR$\FwLib\inc\stm32f10x_crc.h</file>
+      <file>$PROJ_DIR$\FwLib\inc\stm32f10x_dac.h</file>
+      <file>$PROJ_DIR$\FwLib\inc\stm32f10x_dbgmcu.h</file>
+      <file>$PROJ_DIR$\FwLib\src\stm32f10x_gpio.c</file>
+      <file>$PROJ_DIR$\FwLib\src\stm32f10x_i2c.c</file>
+      <file>$PROJ_DIR$\FwLib\src\stm32f10x_iwdg.c</file>
+      <file>$PROJ_DIR$\FwLib\src\stm32f10x_pwr.c</file>
+      <file>$PROJ_DIR$\FwLib\src\stm32f10x_rcc.c</file>
+      <file>$PROJ_DIR$\FwLib\src\stm32f10x_rtc.c</file>
+      <file>$PROJ_DIR$\FwLib\src\stm32f10x_sdio.c</file>
+      <file>$PROJ_DIR$\FwLib\src\stm32f10x_spi.c</file>
+      <file>$PROJ_DIR$\FwLib\src\stm32f10x_tim.c</file>
+      <file>$PROJ_DIR$\FwLib\src\stm32f10x_usart.c</file>
+      <file>$PROJ_DIR$\FwLib\src\stm32f10x_wwdg.c</file>
+      <file>$PROJ_DIR$\App\main.c</file>
+      <file>$PROJ_DIR$\App\stm32f10x_conf.h</file>
+      <file>$PROJ_DIR$\App\stm32f10x_it.c</file>
+      <file>$PROJ_DIR$\FwLib\inc\stm32f10x_spi.h</file>
+      <file>$PROJ_DIR$\FwLib\inc\stm32f10x_fsmc.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_crc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_dbgmcu.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_dac.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_cec.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_dma.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_exti.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_flash.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_fsmc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_gpio.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_i2c.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_iwdg.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_pwr.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_rcc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_rtc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_sdio.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_spi.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_tim.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_usart.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_wwdg.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\misc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_adc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_can.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_bkp.pbi</file>
+      <file>$PROJ_DIR$\FwLib\inc\stm32f10x_exti.h</file>
+      <file>$PROJ_DIR$\FwLib\inc\stm32f10x_flash.h</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\CMSIS\StartUp\startup_stm32f10x_cl.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 33</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\CMSIS\StartUp\startup_stm32f10x_hd.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 34</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\CMSIS\StartUp\startup_stm32f10x_hd_vl.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 44</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\CMSIS\StartUp\startup_stm32f10x_ld.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 43</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\CMSIS\StartUp\startup_stm32f10x_ld_vl.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 39</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\CMSIS\StartUp\startup_stm32f10x_md.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 40</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\CMSIS\StartUp\startup_stm32f10x_md_vl.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 41</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\CMSIS\StartUp\startup_stm32f10x_xl.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 42</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\RemoteControl.out</name>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 50 14 84 22 33 32 23 24 125 122 124 123 126 127 128 129 130 131 83 132 133 134 135 136 137 138 139 140 13 49 55 48 53</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 17</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\CMSIS\core_cm3.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 14</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 19 27 25 28 29 26 31 30</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 30 25 26 31 19 29 28 27</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\CMSIS\system_stm32f10x.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 15</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 13</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 52 58 120 19 51 121 28 27 105 99 18 60 118 56 57 26 29 61 103 145 46 100 1 59 30 25 31 54 45 102 104 12 146 20 47 62 101 0 2</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 60 52 30 25 26 31 19 29 28 27 56 51 54 57 59 118 61 45 58 102 103 104 105 12 145 146 121 20 46 47 99 62 100 101 120 0 1 2 18</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\FwLib\src\misc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 141</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 22</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47 60 59 104 2 30 54 51 45 146 101 118 25 31 102 12 20 62 0 18 52 56 57 26 28 27 19 29 61 58 103 105 145 121 46 99 100 120 1</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 18 60 52 30 25 26 31 19 29 28 27 56 51 54 57 59 118 61 45 58 102 103 104 105 12 145 146 121 20 46 47 99 62 100 101 120 0 1 2</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\FwLib\src\stm32f10x_adc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 142</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 32</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 1 57 103 46 118 56 26 29 61 145 100 60 62 52 28 27 19 51 58 105 121 99 120 18 59 30 25 31 54 45 102 104 12 146 20 47 101 0 2</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 61 60 52 30 25 26 31 19 29 28 27 56 51 54 57 59 118 45 58 102 103 104 105 12 145 146 121 20 46 47 99 62 100 101 120 0 1 2 18</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\FwLib\src\stm32f10x_bkp.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 144</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47 59 45 60 104 2 30 54 51 146 101 62 118 25 31 102 12 20 0 52 56 57 26 28 27 19 29 61 58 103 105 145 121 46 99 100 120 1 18</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 45 60 52 30 25 26 31 19 29 28 27 56 51 54 57 59 118 61 58 102 103 104 105 12 145 146 121 20 46 47 99 62 100 101 120 0 1 2 18</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\FwLib\src\stm32f10x_can.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 143</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 24</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 58 60 52 30 25 26 31 19 29 28 27 56 51 54 57 59 118 61 45 102 103 104 105 12 145 146 121 20 46 47 99 62 100 101 120 0 1 2 18</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\FwLib\src\stm32f10x_cec.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 63</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 125</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 18 28 105 62 27 99 60 52 19 51 58 121 120 102 118 56 57 26 29 61 103 145 46 100 1 59 30 25 31 54 45 104 12 146 20 47 101 0 2</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 102 60 52 30 25 26 31 19 29 28 27 56 51 54 57 59 118 61 45 58 103 104 105 12 145 146 121 20 46 47 99 62 100 101 120 0 1 2 18</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\FwLib\src\stm32f10x_crc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 64</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 122</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 99 27 60 28 105 18 52 19 51 58 121 120 118 56 57 26 29 61 103 145 46 100 1 59 30 25 31 54 45 102 104 12 146 20 47 62 101 0 2</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 103 60 52 30 25 26 31 19 29 28 27 56 51 54 57 59 118 61 45 58 102 104 105 12 145 146 121 20 46 47 99 62 100 101 120 0 1 2 18</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\FwLib\src\stm32f10x_dac.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 65</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 124</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 118 145 56 26 60 29 61 100 104 57 103 46 1 62 52 28 27 19 51 58 105 121 99 120 18 59 30 25 31 54 45 102 12 146 20 47 101 0 2</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 104 60 52 30 25 26 31 19 29 28 27 56 51 54 57 59 118 61 45 58 102 103 105 12 145 146 121 20 46 47 99 62 100 101 120 0 1 2 18</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\FwLib\src\stm32f10x_dbgmcu.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 66</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 123</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 46 57 103 1 60 56 26 29 61 145 100 118 52 28 27 19 51 58 105 121 99 120 18 59 30 25 31 54 45 102 104 12 146 20 47 62 101 0 2</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 105 60 52 30 25 26 31 19 29 28 27 56 51 54 57 59 118 61 45 58 102 103 104 12 145 146 121 20 46 47 99 62 100 101 120 0 1 2 18</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\FwLib\src\stm32f10x_dma.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 67</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 126</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 1 60 12 57 103 46 62 56 26 29 61 145 100 118 52 28 27 19 51 58 105 121 99 120 18 59 30 25 31 54 45 102 104 146 20 47 101 0 2</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 12 60 52 30 25 26 31 19 29 28 27 56 51 54 57 59 118 61 45 58 102 103 104 105 145 146 121 20 46 47 99 62 100 101 120 0 1 2 18</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\FwLib\src\stm32f10x_exti.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 68</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 127</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 59 47 60 104 2 30 54 51 45 146 101 118 25 31 102 12 20 62 0 145 52 56 57 26 28 27 19 29 61 58 103 105 121 46 99 100 120 1 18</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 145 60 52 30 25 26 31 19 29 28 27 56 51 54 57 59 118 61 45 58 102 103 104 105 12 146 121 20 46 47 99 62 100 101 120 0 1 2 18</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\FwLib\src\stm32f10x_flash.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 69</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 128</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 30 25 60 118 12 62 31 102 20 0 146 59 54 51 45 104 47 101 2 52 56 57 26 28 27 19 29 61 58 103 105 145 121 46 99 100 120 1 18</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 146 60 52 30 25 26 31 19 29 28 27 56 51 54 57 59 118 61 45 58 102 103 104 105 12 145 121 20 46 47 99 62 100 101 120 0 1 2 18</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\FwLib\src\stm32f10x_fsmc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 70</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 129</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 62 118 25 30 12 60 31 102 20 0 121 59 54 51 45 104 146 47 101 2 52 56 57 26 28 27 19 29 61 58 103 105 145 46 99 100 120 1 18</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 121 60 52 30 25 26 31 19 29 28 27 56 51 54 57 59 118 61 45 58 102 103 104 105 12 145 146 20 46 47 99 62 100 101 120 0 1 2 18</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\FwLib\src\stm32f10x_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 71</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 130</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 1 60 57 103 46 62 118 56 26 29 61 145 100 20 52 28 27 19 51 58 105 121 99 120 18 59 30 25 31 54 45 102 104 12 146 47 101 0 2</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 20 60 52 30 25 26 31 19 29 28 27 56 51 54 57 59 118 61 45 58 102 103 104 105 12 145 146 121 46 47 99 62 100 101 120 0 1 2 18</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\FwLib\src\stm32f10x_i2c.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 72</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 131</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 104 62 2 60 118 59 47 30 54 51 45 146 101 46 25 31 102 12 20 0 52 56 57 26 28 27 19 29 61 58 103 105 145 121 99 100 120 1 18</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 46 60 52 30 25 26 31 19 29 28 27 56 51 54 57 59 118 61 45 58 102 103 104 105 12 145 146 121 20 47 99 62 100 101 120 0 1 2 18</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\FwLib\src\stm32f10x_iwdg.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 73</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 132</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 30 101 45 54 51 146 60 59 104 47 2 118 25 31 102 12 20 62 0 52 56 57 26 28 27 19 29 61 58 103 105 145 121 46 99 100 120 1 18</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 47 60 52 30 25 26 31 19 29 28 27 56 51 54 57 59 118 61 45 58 102 103 104 105 12 145 146 121 20 46 99 62 100 101 120 0 1 2 18</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\FwLib\src\stm32f10x_pwr.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 74</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 133</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 46 60 57 103 1 99 56 26 29 61 145 100 62 118 52 28 27 19 51 58 105 121 120 18 59 30 25 31 54 45 102 104 12 146 20 47 101 0 2</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 99 60 52 30 25 26 31 19 29 28 27 56 51 54 57 59 118 61 45 58 102 103 104 105 12 145 146 121 20 46 47 62 100 101 120 0 1 2 18</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\FwLib\src\stm32f10x_rcc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 75</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 134</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27 60 99 28 105 18 62 52 19 51 58 121 120 118 56 57 26 29 61 103 145 46 100 1 59 30 25 31 54 45 102 104 12 146 20 47 101 0 2</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 62 60 52 30 25 26 31 19 29 28 27 56 51 54 57 59 118 61 45 58 102 103 104 105 12 145 146 121 20 46 47 99 100 101 120 0 1 2 18</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\FwLib\src\stm32f10x_rtc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 76</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 135</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 0 31 25 102 60 20 30 12 62 100 118 59 54 51 45 104 146 47 101 2 52 56 57 26 28 27 19 29 61 58 103 105 145 121 46 99 120 1 18</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 100 60 52 30 25 26 31 19 29 28 27 56 51 54 57 59 118 61 45 58 102 103 104 105 12 145 146 121 20 46 47 99 62 101 120 0 1 2 18</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\FwLib\src\stm32f10x_sdio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 77</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 136</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 19 121 51 62 118 52 58 120 60 28 27 105 99 18 101 56 57 26 29 61 103 145 46 100 1 59 30 25 31 54 45 102 104 12 146 20 47 0 2</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 101 60 52 30 25 26 31 19 29 28 27 56 51 54 57 59 118 61 45 58 102 103 104 105 12 145 146 121 20 46 47 99 62 100 120 0 1 2 18</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\FwLib\src\stm32f10x_spi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 78</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 137</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 60 46 57 103 1 56 26 29 61 145 100 120 62 118 52 28 27 19 51 58 105 121 99 18 59 30 25 31 54 45 102 104 12 146 20 47 101 0 2</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 120 60 52 30 25 26 31 19 29 28 27 56 51 54 57 59 118 61 45 58 102 103 104 105 12 145 146 121 20 46 47 99 62 100 101 0 1 2 18</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\FwLib\src\stm32f10x_tim.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 79</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 138</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 60 27 99 28 105 18 62 118 52 19 51 58 121 120 0 56 57 26 29 61 103 145 46 100 1 59 30 25 31 54 45 102 104 12 146 20 47 101 2</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 0 60 52 30 25 26 31 19 29 28 27 56 51 54 57 59 118 61 45 58 102 103 104 105 12 145 146 121 20 46 47 99 62 100 101 120 1 2 18</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\FwLib\src\stm32f10x_usart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 80</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 139</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 0 31 25 102 60 62 20 30 12 1 118 59 54 51 45 104 146 47 101 2 52 56 57 26 28 27 19 29 61 58 103 105 145 121 46 99 100 120 18</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 1 60 52 30 25 26 31 19 29 28 27 56 51 54 57 59 118 61 45 58 102 103 104 105 12 145 146 121 20 46 47 99 62 100 101 120 0 2 18</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\FwLib\src\stm32f10x_wwdg.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 81</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 140</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 51 54 146 60 30 45 101 118 59 104 47 2 62 25 31 102 12 20 0 52 56 57 26 28 27 19 29 61 58 103 105 145 121 46 99 100 120 1 18</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 2 60 52 30 25 26 31 19 29 28 27 56 51 54 57 59 118 61 45 58 102 103 104 105 12 145 146 121 20 46 47 99 62 100 101 120 0 1 18</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\App\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 82</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 84</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25 102 60 31 0 20 118 30 12 62 38 59 54 51 45 104 146 47 101 2 37 26 52 56 57 28 27 19 29 61 58 103 105 145 121 46 99 100 120 1 18 36</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 60 52 30 25 26 31 19 29 28 27 56 51 54 57 59 118 61 45 58 102 103 104 105 12 145 146 121 20 46 47 99 62 100 101 120 0 1 2 18 38 37 36</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\App\stm32f10x_it.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 35</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 83</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 52 58 120 19 51 121 60 28 27 105 99 18 118 56 57 26 29 61 103 145 46 100 1 3 59 30 25 31 54 45 102 104 12 146 20 47 62 101 0 2</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 3 60 52 30 25 26 31 19 29 28 27 56 51 54 57 59 118 61 45 58 102 103 104 105 12 145 146 121 20 46 47 99 62 100 101 120 0 1 2 18</file>
+        </tool>
+      </inputs>
+    </file>
+    <forcedrebuild>
+      <name>[REBUILD_ALL]</name>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
